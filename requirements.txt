@@ -1,0 +1,10 @@
+# Neuro-Symbolic AI Safety Inspector — Dependencies
+ultralytics>=8.1.0        # YOLOv8 — auto-downloads yolov8m.pt / yolov8n.pt
+opencv-python>=4.8.0      # Computer vision, CLAHE, bilateral filter
+streamlit>=1.28.0         # Dashboard UI
+numpy>=1.24.0             # Array ops
+Pillow>=10.0.0            # Image handling
+
+# Optional — install for real Prolog reasoning
+# If absent, the pure-Python fallback is used automatically.
+pyswip>=0.2.10            # in-process SWI-Prolog (requires SWI-Prolog installed)
